@@ -14,7 +14,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  height: 60px;
+  height: 120px;
   z-index: 100;
 }
 
@@ -27,16 +27,17 @@ nav {
 }
 
 .icon {
-  font-size: 24px;
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
   margin-right: 20px;
 }
 
 ul {
   list-style: none;
   display: flex;
-  margin-left: auto;
+  margin: auto;
+  padding: 0 20px;
+  font-size: 24px;
 }
 
 li {
@@ -55,7 +56,7 @@ a:hover {
 
 /* Main content */
 main {
-  padding: 80px 20px;
+  padding: 120px 100px;
 }
 
 section {
@@ -65,6 +66,46 @@ section {
 h2 {
   margin-bottom: 20px;
 }
+
+/* Introduction section */
+.intro-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro-text {
+  width: 40%;
+}
+
+.intro-image {
+  width: 50%;
+}
+
+.intro-image img {
+  max-width: 100%;
+}
+
+.button-container {
+  position: absolute;
+  top: 230px;
+  left: 1100px;
+}
+
+
+.learn-more-button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.learn-more-button:hover {
+  background-color: #555;
+}
+
 
 /* Team section */
 .team-members {
@@ -81,11 +122,15 @@ img {
   width: 100px;
   height: 100px;
   object-fit: cover;
+}
+
+img[alt*="Team Member"] {
   border-radius: 50%;
 }
 
 figcaption {
   margin-top: 10px;
+  font-weight: bold;
 }
 
 /* Add a simple animation to the navigation links */
