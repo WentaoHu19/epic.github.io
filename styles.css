@@ -1,0 +1,103 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header and navigation */
+header {
+  background-color: #333;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  z-index: 100;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 20px;
+  height: 100%;
+}
+
+.icon {
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin-left: auto;
+}
+
+li {
+  margin-left: 20px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #ccc;
+}
+
+/* Main content */
+main {
+  padding: 80px 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+/* Team section */
+.team-members {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+figure {
+  text-align: center;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+figcaption {
+  margin-top: 10px;
+}
+
+/* Add a simple animation to the navigation links */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+a {
+  animation: fadeIn 0.5s ease-in;
+}
