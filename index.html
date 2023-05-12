@@ -3,8 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project Landpage</title>
+  <title>Team Epic Landingpage</title>
   <link rel="stylesheet" href="styles.css">
+  <script>
+    window.onload = function() {
+      document.body.classList.add('loaded');
+    };
+  </script>
 </head>
 <body>
   <header>
@@ -13,26 +18,26 @@
         <img src="images/Jeeva_logo_text.png" alt="icon">
       </div>
       <ul>
-        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#about">About Jeeva Health</a></li>
         <li><a href="#overview">Overview</a></li>
-        <li><a href="#stakeholders">Stakeholders</a></li>
-        <li><a href="#summary">Summary</a></li>
-        <li><a href="#benefits">Benefits</a></li>
+        <li><a href="#newui">New Design</a></li>
+        <li><a href="#dashboard">Interactive Dashboard</a></li>
+        <li><a href="#video">Deemo Video</a></li>
         <li><a href="#team">Team</a></li>
       </ul>
     </nav>
   </header>
   <main>
-    <section id="introduction">
+    <section id="about">
       <div class="intro-content">
         <div class="intro-text">
           <h2>About Jeeva Health</h2>
           <p>Jeeva is a mental wellness platform designed for Generation Z. It empowers young people to take charge of how they handle stress, depression, or even pre-addictive habits. Jeeva supports and listens through peers, guides non-judgmentally with an AI chatbot, and handles exceptions through trained clinicians. The platform is designed by Gen Z and delivered by Gen Z in ways that work best for Gen Z. Jeeva uses AI to personalize science to the user's specific challenges and draws from various science disciplines such as CBT, DBT, Psychodynamics, ACT, and Mindfulness. Jeeva also taps into the user's community for validation and insights from their peer community.</p>
         </div>
-        <div class="button-container">
-          <a href="https://jeevahealth.ai/" class="learn-more-button">Learn More</a>
-        </div>
         <div class="intro-image">
+          <div class="button-container">
+            <a href="https://jeevahealth.ai/" class="learn-more-button">Learn More</a>
+          </div>
           <a href="https://jeevahealth.ai/" target="_blank">
             <img src="images/Jeeva.png" alt="Jeeva Introduction Image">
           </a>
@@ -48,18 +53,41 @@
             
         Thank you for your interest in our project, and we hope that our work will make a positive impact in the lives of those struggling with mental health.</p>
       </section>
-      <section id="stakeholders">
-        <h2>Stakeholders</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+      <section id="newui">
+        <h2>New UI Design</h2>
+        <a href="https://www.figma.com/proto/cMzuRhrwtLKBeQ6erQSXC9/MVP-Prototype?node-id=3-8694&scaling=scale-down&page-id=0%3A1&starting-point-node-id=3%3A8694" target="_blank">
+          <div class="image-container">
+            <img src="images/ui.png" alt="New UI Design" class="enlarged-image">
+            <div class="hover-overlay">
+              <span class="hover-text">Click to view。</span>
+            </div>
+          </div>
+        </a>
       </section>
-      <section id="summary">
-        <h2>Summary</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      
+      <section id="dashboard">
+        <h2>Interactive Dashboard</h2>
+        <a href="https://enthusiastic-fawn-gabardine.cyclic.app/" target="_blank">
+          <div class="image-container">
+            <img src="images/dashboard.png" alt="Interactive Dashboard" class="enlarged-image">
+            <div class="hover-overlay">
+              <span class="hover-text">Click to view.</span>
+            </div>
+          </div>
+        </a>
+      </section>      
+
+      <section id="video">
+        <div class="video-title">
+          <h2>Deemo Video</h2>
+        </div>
+        <div class="video-container">
+          <iframe src="https://www.youtube.com/embed/tpAE9DAjonc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
       </section>
-      <section id="benefits">
-        <h2>Benefits</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </section>
+
+      
       <section id="team">
         <h2>Team EPIC</h2>
         <div class="team-members">
